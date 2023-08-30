@@ -8,7 +8,7 @@ export default function Curso({curso}) {
         <section className={`${styles.curso} curso`}>
             <style jsx>{`
                 .curso {
-                    background-image: linear-gradient( to right, rgb(0 0 0 / .65), rgb(0 0 0 / .7)), url("https:res.cloudinary.com/dhokyhiec/image/upload/v1692459662/cursos_bg_2109c8ffd3.jpg")
+                    background-image: linear-gradient( to right, rgb(0 0 0 / .65), rgb(0 0 0 / .7)), url(${process.env.IMAGEN_URL})
                 }
             `}</style>
             <div className={`contenedor ${styles.grid}`}>
